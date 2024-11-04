@@ -58,7 +58,7 @@ function updateMessage(){
         messageEl.textContent = `Congratulation ${turn} Wins!`
     } else if (winner === false && tie === false) {
         messageEl.textContent = ` Current turn: ${turn}`
-    } else if ( winner=== false && tie === false) {
+    } else if ( winner === false && tie === true) {
         messageEl.textContent = `It's a tie!`
     } 
 
